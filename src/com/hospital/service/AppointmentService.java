@@ -1,11 +1,11 @@
-package com.hospital.repository;
+package com.hospital.service;
 
 import com.hospital.model.Appointment;
 import com.hospital.model.Doctor;
 import com.hospital.model.Patient;
-import com.hospital.service.AppointmentRepository;
-
-import java.util.Date;
+import com.hospital.repository.AppointmentRepository;
+import com.hospital.repository.DoctorRepository;
+import com.hospital.repository.PatientRepository;
 
 public class AppointmentService {
     private PatientRepository patientRepository;

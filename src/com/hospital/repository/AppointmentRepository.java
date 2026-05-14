@@ -1,4 +1,4 @@
-package com.hospital.service;
+package com.hospital.repository;
 
 import com.hospital.model.Appointment;
 
